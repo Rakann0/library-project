@@ -1,6 +1,4 @@
-package member;
-
-public class member {
+public class Member {
 	private int id;
 	private String name;
 	private int borrowedCount;
@@ -17,7 +15,7 @@ public class member {
 	public static int TotalReturns = 0;
 
 	// Constructor
-	public member(int id, String name, int borrowedCount) {
+	public Member(int id, String name, int borrowedCount) {
 		this.id = id;
 		this.name = name;
 		this.borrowedCount = borrowedCount;
@@ -111,5 +109,6 @@ public class member {
 	public int getBorrowedCount() {
 		return borrowedCount;
 	}
+
 
 }
